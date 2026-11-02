@@ -8,25 +8,25 @@ This unit, be sure to complete all tasks listed below. To complete a task, place
 
 You will need to reference the GitHub Project Management guide in the course portal for more information about how to complete each of these steps.
 
-- [ ] In your repo, create a project board.
+- [X] In your repo, create a project board.
   - *Please be sure to share your project board with the grading team's GitHub **codepathreview**. This is separate from your repository's sharing settings.*
-- [ ] In your repo, create at least 5 issues from the features on your feature list.
+- [x] In your repo, create at least 5 issues from the features on your feature list.
   - List the title of each issue you created:
-    1.
-    2.
-    3.
-    4.
-    5.
-- [ ] In your repo, update the status of issues in your project board.
-- [ ] In your repo, create a GitHub Milestone for each final project unit, corresponding to each of the 5 milestones in your `milestones/` directory.
+    1. Sign-in/Sign-up Page
+    2. Home/Explore Page
+    3. Search Page
+    4. Resources Page
+    5. Profile Page
+- [X] In your repo, update the status of issues in your project board.
+- [X] In your repo, create a GitHub Milestone for each final project unit, corresponding to each of the 5 milestones in your `milestones/` directory.
   - List the name of each milestone you created:
-    1.
-    2.
-    3.
-  - [ ] Set the completion percentage of each milestone. The GitHub Milestone for this unit (Milestone 3 - Unit 7) should be 100% completed when you submit for full points.
-- [ ] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of the feature's name.
-  - [ ] Under each feature you have completed, include a GIF showing feature functionality.
-- [ ] In this documents, complete all five questions in the **Reflection** section below.
+    1. Milestone 1 - Unit 5
+    2. Milestone 2 - Unit 6
+    3. Milestone 3 - Unit 7
+  - [X] Set the completion percentage of each milestone. The GitHub Milestone for this unit (Milestone 3 - Unit 7) should be 100% completed when you submit for full points.
+- [X] In `readme.md`, check off the features you have completed in this unit by adding a ✅ emoji in front of the feature's name.
+  - [X] Under each feature you have completed, include a GIF showing feature functionality.
+- [X] In this documents, complete all five questions in the **Reflection** section below.
 
 ## Reflection
 
