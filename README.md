@@ -2,7 +2,7 @@
 
 CodePath WEB103 Final Project
 
-Designed and developed by: Bhupinder Mehton, Tabitha Sulaiman, Jimmy Wu, and Brian Ingram (?)
+Designed and developed by: Bhupinder Mehton, Tabitha Sulaiman, and Jimmy Wu
 
 🔗 Link to deployed app:
 
