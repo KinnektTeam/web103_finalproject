@@ -24,10 +24,9 @@ List the name of each GitHub Milestone you created, one per line:
 Replace the blank before the percent sign with a number from 0 to 100.
 Completion percentage for Milestone 3 - Unit 7: %
 List each issue you completed this unit and the main file or folder where that work lives, one per line:
-- Example: User login - server/routes/auth.js
-- Event Creation 
+- Event Creation Front End - client/src/pages/CreateEvent.jsx & CreateEvent.css
+- Navbar - client/src/components/Navbar.jsx & Navbar.css
 
 ## Features Completed This Unit
 List each feature you completed and checked off in readme.md this unit, one per line:
-- Example: Search events by category
-- Event Creation
+- Event Creation Front end

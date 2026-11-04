@@ -37,11 +37,11 @@ Organizers fill out a form with title, description, date, location, color catego
 
 [gif goes here]
 
-### Event details and RSVP pop-up
+### ✅ Event details and RSVP pop-up
 
 A dynamic page at /events/:eventId shows the full details and who is going, maybe going, or not going. A modal lets attendees RSVP with their name and email and change their status later without creating a duplicate.
 
-[gif goes here]
+![Create Event](https://i.imgur.com/1Ps17u4.gif)
 
 ### Resource finder
 
