@@ -1,0 +1,137 @@
+.navbar {
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.navbar__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 76px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__left,
+.navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__left {
+  gap: 40px;
+}
+
+.navbar__right {
+  gap: 24px;
+}
+
+/* Brand */
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.navbar__logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: #1f1f1f;
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
+
+.navbar__name {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Links */
+.navbar__links {
+  display: flex;
+  gap: 24px;
+}
+
+.navbar__link {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.navbar__link:hover {
+  color: #1f1f1f;
+}
+
+/* Call to action */
+.navbar__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  background: #1f1f1f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.15s ease;
+}
+
+.navbar__cta:hover {
+  background: #000;
+}
+
+/* Avatar */
+.navbar__avatar {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background: #e8e8e8;
+  color: #444;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.navbar__avatar:hover {
+  background: #dcdcdc;
+}
+
+/* Small screens */
+@media (max-width: 640px) {
+  .navbar__inner {
+    padding: 0 16px;
+  }
+
+  .navbar__left {
+    gap: 16px;
+  }
+
+  .navbar__right {
+    gap: 12px;
+  }
+
+  .navbar__right .navbar__link {
+    display: none;
+  }
+}
+
+.navbar__link--active {
+  color: #1f1f1f;
+  font-weight: 600;
+}
+
+.navbar__avatar {
+  text-decoration: none;
+}
