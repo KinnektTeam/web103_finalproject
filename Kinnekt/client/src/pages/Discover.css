@@ -1,0 +1,84 @@
+.dc-heading {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+.dc-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dc-check input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--lm-ink);
+}
+
+.dc-hint {
+  margin: 0;
+  font-size: 14px;
+  color: var(--lm-ink-soft);
+}
+
+.dc-hint a {
+  color: var(--lm-ink);
+}
+
+.dc-person {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--lm-line);
+  border-radius: var(--lm-radius);
+  background: #fff;
+}
+
+.dc-person__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dc-person__head h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.dc-person__head p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--lm-ink-soft);
+}
+
+.dc-person__avatar {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--lm-muted);
+  font-weight: 700;
+  color: var(--lm-ink-soft);
+  flex-shrink: 0;
+}
+
+.dc-person__shared {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dc-person__colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.dc-person__none {
+  font-size: 13px;
+  color: var(--lm-ink-faint);
+}

@@ -1,0 +1,9 @@
+.home__count {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: var(--lm-ink-soft);
+}
+
+.lm-page-head p a {
+  color: var(--lm-ink);
+}
