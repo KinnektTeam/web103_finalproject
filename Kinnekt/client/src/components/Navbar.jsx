@@ -1,10 +1,14 @@
 import { Link, NavLink } from 'react-router-dom'
+import UserSwitcher from './UserSwitcher'
+import { useCurrentUser } from '../context/useCurrentUser'
 import './Navbar.css'
 
 const linkClass = ({ isActive }) =>
   isActive ? 'navbar__link navbar__link--active' : 'navbar__link'
 
 function Navbar() {
+  const { user } = useCurrentUser()
+
   return (
     <header className="navbar">
       <div className="navbar__inner">
@@ -31,7 +35,10 @@ function Navbar() {
 
           <nav className="navbar__links" aria-label="Primary">
             <NavLink to="/discover" className={linkClass}>
-              Discover
+              Find your people
+            </NavLink>
+            <NavLink to="/resources" className={linkClass}>
+              Resources
             </NavLink>
           </nav>
         </div>
@@ -53,14 +60,20 @@ function Navbar() {
             Create event
           </Link>
 
-          <NavLink to="/account" className={linkClass}>
-            My account
-          </NavLink>
+          {/* Logged in: "My account". Guest: pick who to view as. */}
+          {user ? (
+            <NavLink to="/account" className={linkClass}>
+              My account
+            </NavLink>
+          ) : (
+            <UserSwitcher />
+          )}
 
           <Link
             to="/account"
             className="navbar__avatar"
-            aria-label="Go to your profile"
+            aria-label={user ? `Go to ${user.name}'s profile` : 'Create your profile'}
+            title={user ? user.name : 'Create your profile'}
           >
             <svg
               width="18"

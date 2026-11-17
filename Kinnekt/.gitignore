@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
+
+# React build output (created by `npm run build`, rebuilt on deploy)
+server/public
 
 # Editor directories and files
 .vscode/*

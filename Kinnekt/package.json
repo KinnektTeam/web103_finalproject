@@ -1,0 +1,18 @@
+{
+  "name": "kinnekt",
+  "version": "1.0.0",
+  "description": "LocalMeet App",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && npm --prefix client install && npm --prefix server install",
+    "dev": "concurrently \"npm --prefix client run dev\" \"npm --prefix server run dev\"",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build",
+    "reset": "npm --prefix server run reset"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
