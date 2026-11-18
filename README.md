@@ -29,7 +29,7 @@ Backend: Node.js, Express, Postgresql
 
 Users choose the colors that represent what they enjoy (Green: Nature, Brown: Pets, Orange: Entertainment, and so on). The names always appear next to the colors, and the choices personalize what they see across the app.
 
-[gif goes here]
+![Interest Color Picker](https://i.imgur.com/A1r1VwR.gif)
 
 ### Create, edit, and cancel events
 
