@@ -9,7 +9,7 @@ import eventsRouter from './routes/events.js'
 import resourcesRouter, { resourceCategoriesRouter } from './routes/resources.js'
 import resetRouter from './routes/reset.js'
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 const SERVER_DIR = path.dirname(fileURLToPath(import.meta.url))
 const API_INDEX = path.join(SERVER_DIR, 'index.html')
 const CLIENT_BUILD = path.join(SERVER_DIR, 'public')

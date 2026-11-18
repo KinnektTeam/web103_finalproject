@@ -1,4 +1,4 @@
-# LocalMeet
+# Kinnekt
 
 CodePath WEB103 Final Project
 
