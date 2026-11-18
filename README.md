@@ -35,8 +35,8 @@ Users choose the colors that represent what they enjoy (Green: Nature, Brown: Pe
 
 Organizers fill out a form with title, description, date, location, color category, group size, and cost. They can edit it later or delete it after a confirmation prompt. Past dates are rejected, and after creating an event the organizer is redirected to its page.
 
-![CRUD Operations](Gifs\WEB103_CRUD_operations.gif)
-![Data Saved](Gifs\Data_saved.gif)
+![CRUD Operations](Gifs/WEB103_CRUD_operations.gif)
+![Data Saved](Gifs/Data_saved.gif)
 
 ### Event details and RSVP pop-up
 
@@ -48,13 +48,13 @@ A dynamic page at /events/:eventId shows the full details and who is going, mayb
 
 A page lists local resources in categories such as Student Housing, Jobs, Study Spots, and Recovery Programs, each with a cost level. Users can filter by category and cost, so a low-income family can sort by cheapest and someone displaced can open the recovery programs.
 
-![Resource Finder](Gifs\Resources_page.gif)
+![Resource Finder](Gifs/Resources_page.gif)
 
 ### Find your people
 
 Users filter by life stage (new to town, recent grad, student, relocating) and see events and community members who share their colors, so newcomers can find others like them quickly.
 
-![CRUD Operations](Gifs\find_people.gif)
+![CRUD Operations](Gifs/find_people.gif)
 
 ### Browse and filter events
 
