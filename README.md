@@ -4,7 +4,7 @@ CodePath WEB103 Final Project
 
 Designed and developed by: Bhupinder Mehton, Tabitha Sulaiman, and Jimmy Wu
 
-🔗 Link to deployed app:
+🔗 Link to deployed app: https://kinnekt.onrender.com/ 
 
 ## About
 
